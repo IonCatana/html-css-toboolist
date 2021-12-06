@@ -24,14 +24,60 @@ h1{
 .container-retangolo{
     background: white;
     width: 1000px;
-    height: 80px;
+    height: 50px;
     margin: auto;
     margin-top: 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    
+}
+.add-task, .add-section{
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 5px;
+   font-size: 14px;
+    
+}
+.add-task{
+    background-color: rgb(75, 185, 236);
+    border: 0px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-left: 40px;
+    padding: 10px;
+   
+    
+   
+}
+.add-section{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
 }
 .container-quadrato{
     background: white;
     width: 1000px;
-    height: 1000px;
+    height: 800px;
     margin: auto;
     margin-top: 3px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+       
+}
+.new-task{
+    padding-left: 40px;
+    
+}
+.today{
+    padding-left: 40px; 
+    margin-top: 20px;
+}
+.upcoming{
+    padding-left: 40px; 
+    margin-top: 20px;
 }
