@@ -1,13 +1,23 @@
+/* Inizio regola generale */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Fine regola generale */
 body{
-    background-color: rgb(224, 220, 220);
+    background-color: rgb(238, 234, 234);
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
 }
+/* Inizio header */
 header{
     width: 100%;
+    padding-left: 650px;
+    padding-right: 650px;
+    
 }
 .titolo-logo{
     background-image: url(img/Logo.png);
@@ -15,12 +25,15 @@ header{
     background-color: white;
     height: 50px;
     vertical-align:middle
+     
 }
 h1{
     display: inline-block;
     padding-left: 55px;
     margin-top: 5px;
 }
+/* Fine header */
+/* Inizio container retangolo */
 .container-retangolo{
     background: white;
     width: 1000px;
@@ -28,56 +41,122 @@ h1{
     margin: auto;
     margin-top: 35px;
     border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-
-    
+    border-top-right-radius: 8px;   
 }
 .add-task, .add-section{
     display: inline-block;
     border-radius: 8px;
-    margin-top: 5px;
-   font-size: 14px;
-    
+    margin-top: 5px;            
 }
 .add-task{
     background-color: rgb(75, 185, 236);
     border: 0px;
     color: white;
-    width: 80px;
-    height: 40px;
+    width: 80px;    
     margin-left: 40px;
-    padding: 10px;
-   
-    
-   
+    padding: 10px;       
 }
 .add-section{
     background-color: white;
     color: lightgrey;
     border: 1px solid lightgrey;
-    width: 120px;
-    height: 40px;
+    width: 120px;    
     padding: 10px;
 }
+/* Fini container retangolo */
+/* Inizio container quadrato */
 .container-quadrato{
     background: white;
     width: 1000px;
-    height: 800px;
+    height: 600px;
     margin: auto;
     margin-top: 3px;
     border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-       
+    border-bottom-right-radius: 8px;       
 }
+h2{
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 28px;
+}
+/* Inizio new task */
 .new-task{
-    padding-left: 40px;
-    
+    padding-left: 40px;    
 }
+/* Fine new task */
+/* Inizio today */
 .today{
     padding-left: 40px; 
-    margin-top: 20px;
+    
 }
+/* Fine today */
+/* Inizio upcoming*/
 .upcoming{
     padding-left: 40px; 
-    margin-top: 20px;
+    
 }
+/* Fine upcoming */
+/* Inizio span simbols style */
+.spunta{
+    color: green;
+    border: 1px solid green;
+    font-size: 14px;    
+    border-radius: 50%;
+    padding: 1px;    
+}
+.croce{
+    color: red;
+    border: 1px solid red;
+    font-size: 14px;    
+    border-radius: 50%;
+    padding: 4px; 
+    width: 10px;      
+        /*non capisco dove sto sbagliado qui!*/
+        /*non riesco a centrare "X" e il cerchio non mi viene rotondo*/ 
+}
+/* Fine span simbols style */
+/* Inizio  class span e id style */
+.editorial{
+    background-color: rgb(75, 185, 236);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;
+}
+#q1-goals{
+    background-color: rgb(156, 27, 195);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;    
+}
+#recruiting{
+    background-color: rgb(27, 173, 88);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;    
+}
+#mobile{
+    background-color: rgb(241, 165, 23);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;    
+}
+#website{
+    background-color: rgb(228, 11, 228);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;
+}
+#sales{
+    background-color: rgb(143, 200, 9);
+    color: white;
+    padding: 5px;    
+    border-radius: 20px;
+    font-size: 12px;
+}
+/* Fine class span e id style*/
+/* Fine container quadrato */

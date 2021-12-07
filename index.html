@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
     <title>Toboolist</title>
 </head>
 <body>
+    <!-- Inizio header -->
     <header>
         <div class="titolo-logo">
             <h1>Toboolist</h1>
-        </div>                
+        </div>
     </header>
+    <!-- Fine header -->
     <main>
+        <!-- Inzio container retangolo -->
         <div class="container-retangolo">
             <button class="add-task">Add Task</button>
             <button class="add-section">Add Section</button>
         </div>
-        
-            <div class="container-quadrato">
-                <div class="new-task">
-                    <h2>&#9662; New Task</h2>
-                    <p>&#10004; Quarterly Newsletter <span>Editorial</span></p>
-                    <br>
-                </div>
-                
-                <div class="today">
-                <h2>&#9662; Today</h2>
-                <p>&#10004; Recruiting blog post <span>Editorial</span></p>
+        <!-- Fine container retangolo -->
+        <!-- Inizio container quadrato -->
+        <div class="container-quadrato">
+            <!-- Inizio new task e paragrafo -->
+            <div class="new-task">
+                <h2><span>&#9662;</span> New Task</h2>
+                <p><span class="spunta">&#10004;</span> Quarterly Newsletter <span class="editorial">Editorial</span>
+                </p>
                 <br>
-                <p>&#10004; Mobile app luaunch <span>Q1 Goals</span></p>
-                <br>
-                <p>&times; Interview John H. <span>Recruiting</span></p>
-                <br>
-                <p>&#10004; Summit update to mobiile storefronts <span>Mobile</span></p>
-                <br>
-                </div>
-                
-                <div class="upcoming">
-                <h2>&#9662; Upcoming</h2>
-                <p>&times; Schedule meeting with Alex</p>
-                <br>
-                <p>&#10004; Homepage refresh <span>Website</span></p>
-                <br>
-                <p>&#10004; Onboard new Sales team members <span>Sales</span></p>
-                <br>
-                <p>&#10004; Review editorial calendar <span>Editorial</span></p>   
-                <br>
-                </div>
-                             
             </div>
-                
+            <!-- Fine new task h2 e paragrafo-->
+            <!-- Inizio today h2 4 paragrafi -->
+            <div class="today">
+                <h2><span>&#9662;</span> Today</h2>
+                <p><span class="spunta">&#10004;</span> Recruiting blog post <span class="editorial">Editorial</span>
+                </p>
+                <br>
+                <p><span class="spunta">&#10004;</span> Mobile app luaunch <span id=q1-goals>Q1 Goals</span></p>
+                <br>
+                <p><span class="croce">&times;</span> Interview John H. <span id="recruiting">Recruiting</span></p>
+                <br>
+                <p><span class="spunta">&#10004;</span> Summit update to mobiile storefronts <span
+                        class="mobile">Mobile</span></p>
+                <br>
+            </div>
+            <!-- Fine today h2 e 4 paragrafi -->
+            <!-- Inizio upcoming h2 e 4 paragrafi-->
+            <div class="upcoming">
+                <h2><span>&#9662;</span> Upcoming</h2>
+                <p><span class="croce">&times;</span> Schedule meeting with Alex</p>
+                <br>
+                <p><span class="spunta">&#10004;</span> Homepage refresh <span id="website">Website</span></p>
+                <br>
+                <p><span class="spunta">&#10004;</span> Onboard new Sales team members <span id="sales">Sales</span>
+                </p>
+                <br>
+                <p><span class="spunta">&#10004;</span> Review editorial calendar <span class="editorial">Editorial</span></p>
+                <br>
+            </div>
+            <!--Fine upcoming h2 e paragrafi  -->
+        </div>
+        <!--Fine container quadrato   -->
     </main>
-    <footer>
-
-    </footer>
 </body>
+
 </html>
